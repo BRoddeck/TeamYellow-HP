@@ -212,4 +212,5 @@ input[type="range"]::-webkit-slider-thumb:active {
 
 .Addclass {
   font-size: 1em;
+  color: inherit;
 }
