@@ -1,0 +1,107 @@
+<html>
+<head>
+  <title>Team Yellow</title>
+  <link rel="stylesheet" type="text/css" href="inc/css/design.css">
+  <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Architects+Daughter|Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <span class="headline1">ePages.Scrum.RnD.</span>
+    <span class="headline2">Team Yellow</span>
+  </header>
+  <div class="section light" id="section1">
+      <h2>Das Team aus dem Pentagon</h2>
+      <div class="teamimages">
+        <img title="Anja H." alt="Anja H." src="inc/img/team/anja.gif" />
+        <img title="Björn" alt="Björn" src="inc/img/team/bjoern.gif" />
+        <img title="Christian B." alt="Christian B." src="inc/img/team/christian.gif" />
+        <img title="Erik" alt="Erik" src="inc/img/team/erik.gif" />
+        <img title="Florian Z." alt="Florian" src="inc/img/team/florian.gif" />
+        <img title="Hella" alt="Hella" src="inc/img/team/hella.gif" />
+        <img title="Karsten" alt="Karsten" src="inc/img/team/karsten.gif" />
+        <img title="Michael H." alt="Michael H." src="inc/img/team/michael.gif" />
+        <img title="Sören" alt="Sören" src="inc/img/team/soeren.gif" />
+        <img title="Lukas" alt="Lukas" src="inc/img/team/lukas.gif" />
+        <img title="Sebastian L." alt="Sebastian L." src="inc/img/team/sebastian.gif" />
+      </div>
+  </div>
+  <div class="section dark" id="section2">
+      <h2>Die virtuellen Maschinen</h2>
+      <div>
+          <ul>
+            <li>VM 1</li>
+            <li><a href="http://vm-yellow-1.intern.epages.de/epages/DemoShop.sf" target="_blank">SF</a> | <a href="http://vm-yellow-1.intern.epages.de/epages/DemoShop.sf?ObjectPath=/Shops/DemoShop&ViewAction=View&ChangeAction=SaveLoginForm&Login=mmustermann&Password=123456" target="_blank">SF Login</a></li>
+            <li><a href="http://vm-yellow-1.intern.epages.de/MBO" target="_blank">MBO</a> | <a href="http://vm-yellow-1.intern.epages.de/epages/Store.admin/?ObjectPath=/Shops/DemoShop&ViewAction=MBO-ViewMBO&ChangeAction=SaveLoginForm&Login=admin&Password=admin" target="_blank">MBO Login</a></li>
+            <li><a href="http://broddeck.intern.epages.de/epages/Store.diagnostics" target="_blank">Diagnostics</a> | <a href="http://broddeck.intern.epages.de/epages/Store.diagnostics/?ViewAction=ViewDiagIndex&ChangeAction=SaveLoginForm&Login=developer&Password=developer" target="_blank">Diagnostics Login</a></li>
+          </ul>
+          <ul>
+            <li>VM 2</li>
+            <li><a href="http://vm-yellow-2.intern.epages.de/epages/DemoShop.sf" target="_blank">SF</a> | <a href="http://vm-yellow-2.intern.epages.de/epages/DemoShop.sf?ObjectPath=/Shops/DemoShop&ViewAction=View&ChangeAction=SaveLoginForm&Login=mmustermann&Password=123456" target="_blank">SF Login</a></li>
+            <li><a href="http://vm-yellow-2.intern.epages.de/MBO" target="_blank">MBO</a> | <a href="http://vm-yellow-2.intern.epages.de/epages/Store.admin/?ObjectPath=/Shops/DemoShop&ViewAction=MBO-ViewMBO&ChangeAction=SaveLoginForm&Login=admin&Password=admin" target="_blank">MBO Login</a></li>
+            <li><a href="http://broddeck.intern.epages.de/epages/Store.diagnostics" target="_blank">Diagnostics</a> | <a href="http://broddeck.intern.epages.de/epages/Store.diagnostics/?ViewAction=ViewDiagIndex&ChangeAction=SaveLoginForm&Login=developer&Password=developer" target="_blank">Diagnostics Login</a></li>
+          </ul>
+       </div>
+  </div>
+ <!--  <div class="section light" id="section3">
+      <h2>Der Mettrechner</h2>
+      <p>
+          He scents thy footsteps in the snow
+          Wheresoever thou dost go,
+          Thro' the wintry hail and rain.
+          When wilt thou return <a href="">again</a>?
+   
+      </p>
+  </div>
+  
+  <div class="section dark" id="section4">
+    <h2>Die Beleuchtung</h2>
+    <div class="onoffswitch">
+      <h3>Lichtschalter</h3>
+      <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+      <label class="onoffswitch-label" for="myonoffswitch">
+        <div class="onoffswitch-inner">
+          <div class="onoffswitch-active"><div class="onoffswitch-switch">ON</div></div>
+          <div class="onoffswitch-inactive"><div class="onoffswitch-switch">OFF</div></div>
+        </div>
+      </label>
+    </div>       
+
+   <div class="slider">
+    <h3>Dimmer</h3>
+    <input type = "range" min="0" max="100" onchange="rangevaluedim.value=value"/>
+    <output id="rangevaluedim" class="rangevalue">50</output>
+
+    <h3>Frequenz</h3>
+    <input type = "range" min="0" max="100" onchange="rangevaluefreq.value=value"/>
+    <output id="rangevaluefreq" class="rangevalue">50</output>
+  </div> -->
+  </div>
+  <footer>
+    <ul class="nav">
+          <li><a href="#section1">Das Team</a></li>
+          <li><a href="#section2">Die virtuellen Maschinen</a></li>
+         <!--  <li><a href="#section3">Der Mettrechner</a></li>
+          <li><a href="#section4">Die Beleuchtung </a></li> -->
+      </ul>
+  </footer>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript" src="inc/js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    $('ul.nav a').bind('click',function(event){
+        var $anchor = $(this);
+        /*
+        if you want to use one of the easing effects:
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1500,'easeInOutExpo');
+         */
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1000);
+        event.preventDefault();
+    });
+});
+  </script>
+</body>
+</html>
