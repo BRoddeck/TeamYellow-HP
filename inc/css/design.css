@@ -209,7 +209,3 @@ input[type="range"]::-webkit-slider-thumb:active {
   display: block;
   padding: 10px 0px;
 }
-
-.Addclass {
-  font-size: 1em;
-}
